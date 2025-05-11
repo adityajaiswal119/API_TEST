@@ -27,7 +27,7 @@ class DataProcessingView(APIView):
             "roll_number": "0827CY221005",
             "even_numbers": even_numbers,
             "odd_numbers": odd_numbers,
-            "alphabets": alphabets
+            "alphabets": alphabets 
         }
 
         return Response(result, status=status.HTTP_200_OK)
